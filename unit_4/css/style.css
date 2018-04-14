@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+
 * {
 	padding: 0;
 	margin: 0;
@@ -5,11 +8,10 @@
 }
 
 body {
-	font-family: Helvetica, Arial, sans-serif;
-	font-size: 16px; /*1em = 16px*/
+	font-family: 'EB Garamond', serif;
+	font-size: 20px; /*1em = 20px*/
 	text-align: center;
-	position: relative;
-	c
+	position: relative;	
 }
 
 header {	
@@ -35,6 +37,14 @@ footer {
 	padding: 10px;
 	text-align: center;
 }
+
+h1,
+h2,
+h3,
+footer {
+	font-family: 'Muli', sans-serif;
+}
+
 
 h1{
 	font-weight: 400px;
@@ -97,6 +107,7 @@ img {
 }
 
 .navlinks {
+	font-family: 'Muli', sans-serif;
 	padding: 10px;
 	color: #001a00;
 	text-transform: uppercase;
@@ -129,10 +140,6 @@ img {
     background-size: cover;
     height: 750px;
     padding: 20px 0;
-}
-
-#footcolor {
-	color: #f7f7f7;
 }
 
 
