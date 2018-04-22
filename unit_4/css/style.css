@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+
+body {
+	font-family: 'EB Garamond', serif;
+	font-size: 20px; /*1em = 20px*/
+	text-align: center;
+	position: relative;	
+}
+
+header {	
+	padding: 0 500px;
+}
+
+nav{
+	margin: auto;
+	padding: 10px;
+}
+
+main {
+	color: #1e1e1e;
+	
+}
+
+section {
+    padding: 10px;
+}
+
+footer {
+	background-color: #dfdfdf;
+	padding: 10px;
+	text-align: center;
+}
+
+h1,
+h2,
+h3,
+footer {
+	font-family: 'Muli', sans-serif;
+}
+
+
+h1{
+	font-weight: 400px;
+	font-size:60px;
+	text-align:center;
+	line-height: 1.25em;
+	color: #2e2e2e;
+	margin:200px 0;
+}
+
+h2{
+	font-weight: 400px;
+	font-size:2em;
+	text-align:center;
+	line-height: 1.25em;
+	color: #2e2e2e;
+	margin:auto;
+	padding-top: 20px;
+}
+
+h3{
+	font-weight: 200px;
+	font-size:1.5em;
+	text-align:center;
+	color: #2e2e2e;
+	margin:auto;
+	padding-top:.5em;
+}
+
+hr {
+  	border:none;
+	height:3px;
+	background-color: #3C3C3C;
+	width:2em;
+	margin:1em auto;
+ 
+}
+
+p {
+	font-size:1em;
+	line-height: 1.5em;
+}
+
+ul, ol {
+	list-style: none;
+	text-align: left;
+	line-height: 1.50em;
+	margin: auto 125px 0px;
+}
+
+a {
+	text-decoration: none;
+	color:#000;
+	border-bottom: 1px solid #000;
+	padding-bottom:2px	
+}
+
+img {
+	width: 100%;
+}
+
+.navlinks {
+	font-family: 'Muli', sans-serif;
+	padding: 10px;
+	color: #001a00;
+	text-transform: uppercase;
+	font-weight: 600px;
+	letter-spacing: 2px;
+	margin: 0 20px;
+    border:none;
+}
+
+.intro{
+ 	width:30em;
+ 	margin:auto;
+}
+
+.showers {
+	width:30em;
+ 	margin:2em auto;
+
+}
+
+.extrapadding {
+	padding-bottom: 20px;
+}
+
+#bigimage{
+    background: url(https://franspin.github.io/unit_3/images/shower001.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+    background-size: cover;
+    height: 750px;
+    padding: 20px 0;
+}
+
+
+
+
+
+
+
+

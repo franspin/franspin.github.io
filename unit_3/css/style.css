@@ -1,46 +1,58 @@
 * {
 	padding: 0;
 	margin: 0;
+	box-sizing:border-box;
 }
 
 body {
 	font-family: Helvetica, Arial, sans-serif;
-	font-size: 20px;
-	color: #222222;
-	line-height: 1.4;
+	font-size: 16px; /*1em = 16px*/
+	text-align: center;
+	position: relative;
 }
 
-header {
-	font-size: 20px;
-	padding: 20px;
+header {	
+	padding: 0 500px;
 }
-
-#intro {
-    background: url(https://franspin.github.io/unit_3/images/shower001.jpg);
-    background-size: cover;
-    font-size: 35px;
-    text-align: center;
-	height: 100vh;
-    color: gray;
-    padding-left: 1em;
-}
-
 
 section {
-    padding: 5em 0;
+    padding: 10px;
 }
 
 main {
-	background-color: #fff
+	
 }
 
 
-h1 {
-	color: #ccc;
+h1{
+	font-weight: 900px;
+	font-size:60px;
+	text-align:center;
+	color: gray;
+	margin:200px 0;
+}
+
+h2{
+	font-weight: 400px;
+	font-size:2em;
+	text-align:center;
+	color: gray;
+	margin:auto;
+	padding-top: 20px;
+}
+
+h3{
+	font-weight: 200px;
+	font-size:1.5em;
+	text-align:center;
+	color: gray;
+	margin:auto;
+	padding-top: .5em;
 }
 
 p {
-	margin: 20px 0;
+	font-size:1em;
+	line-height: 1.5em;
 }
 
 a {
@@ -48,10 +60,8 @@ a {
 	text-decoration: none;
 }
 
-nav a {
-	color: #cccccc;
-	font-style: none;
-	margin-right: 20px;
+nav{
+	margin: auto;
 }
 
 img {
@@ -59,11 +69,12 @@ img {
 }
 
 main {
-	padding: 20px;
+	
 }
 
 ul, ol {
-	padding-left: 20px;
+	padding: 0px;
+	text-align: none;
 }
 
 footer {
@@ -72,13 +83,51 @@ footer {
 	text-align: center;
 }
 
-h3, h4, h5 {
-	margin: 20px 0;
+
+ul {
+	margin: 0;
 }
 
-aside {
-	float: right;
 
+.alignleft {
+	text-align: none;
+}
+
+.intro{
+ 	width:30em;
+ 	margin:auto;
+}
+
+.showers {
+	width:30em;
+ 	margin:2em auto;
+
+}
+
+#bigimage{
+    background: url(https://franspin.github.io/unit_3/images/shower001.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+    background-size: cover;
+    height: 750px;
+    padding: 20px 0;
+}
+
+
+/*#lander{
+	background:url(../assets/carina-nebula.jpg) no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height:750px;
+	padding:20px 0;
+}*/
+
+
+#test01 {
+	padding: none;
 }
 
 #slogan {
