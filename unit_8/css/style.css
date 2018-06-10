@@ -392,7 +392,9 @@ img-shower {
 
 @media only screen and (max-width: 786px) {	
 	h1 {
-		padding-bottom: .25em;
+		font-size: 1.5em;
+		line-height: 1em;
+		padding-bottom: .4em;
 	}
 	.second-line-h1 {
 	display: none;
