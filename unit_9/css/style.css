@@ -343,8 +343,8 @@ img-shower {
 	}
 
 	#cta-image{
-		margin: 0 35% 0 35%;
-		font-size: 1em;
+		margin: 0 30% 0 30%;
+		font-size: .8em;
 	}
 }
 
@@ -379,8 +379,8 @@ img-shower {
 	}
 
 	h1 {
-		font-size: 1.5em;
-		line-height: 1em;
+		font-size: 1.75em;
+		line-height: 2em;
 		padding-bottom: .4em;
 	}
 
@@ -426,6 +426,15 @@ img-shower {
 	.extrapadding {		
 		margin:10px 0px 20px 35px;;
 	}
+}
+
+@media only screen and (max-width: 533px) {
+	h1 {
+		font-size: 1.45em;
+		line-height: 1.5em;
+		/*padding-bottom: .4em;*/
+	}
+
 }
 
 
