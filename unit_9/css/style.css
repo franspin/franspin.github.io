@@ -431,7 +431,7 @@ img-shower {
 @media only screen and (max-width: 533px) {
 	h1 {
 		font-size: 1.25em;
-		line-height: 1.5em;
+		line-height: 2.25em;
 	}
 
 	#cta-image{
@@ -444,6 +444,8 @@ img-shower {
 @media only screen and (max-width: 375px) {
 	h1 {
 		font-size: 1.1em;
+		text-transform: uppercase;
+		line-height: 2em;
 	}
 
 }
