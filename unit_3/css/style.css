@@ -9,13 +9,18 @@ body {
 	font-size: 16px; /*1em = 16px*/
 	text-align: center;
 	position: relative;
+<<<<<<< HEAD
+=======
 	c
+>>>>>>> 955412d42ba5efa0286174e55b80bfb2a2f1fbe9
 }
 
 header {	
 	padding: 0 500px;
 }
 
+<<<<<<< HEAD
+=======
 nav{
 	margin: auto;
 	padding: 10px;
@@ -26,10 +31,15 @@ main {
 	
 }
 
+>>>>>>> 955412d42ba5efa0286174e55b80bfb2a2f1fbe9
 section {
     padding: 10px;
 }
 
+<<<<<<< HEAD
+main {
+	
+=======
 footer {
 	background-color: #dfdfdf;
 	padding: 10px;
@@ -53,6 +63,7 @@ h2{
 	color: #2e2e2e;
 	margin:auto;
 	padding-top: 20px;
+>>>>>>> 955412d42ba5efa0286174e55b80bfb2a2f1fbe9
 }
 
 h3{
@@ -64,6 +75,32 @@ h3{
 	padding-top:.5em;
 }
 
+<<<<<<< HEAD
+h1{
+	font-weight: 900px;
+	font-size:60px;
+	text-align:center;
+	color: gray;
+	margin:200px 0;
+}
+
+h2{
+	font-weight: 400px;
+	font-size:2em;
+	text-align:center;
+	color: gray;
+	margin:auto;
+	padding-top: 20px;
+}
+
+h3{
+	font-weight: 200px;
+	font-size:1.5em;
+	text-align:center;
+	color: gray;
+	margin:auto;
+	padding-top: .5em;
+=======
 hr {
   	border:none;
 	height:3px;
@@ -71,6 +108,7 @@ hr {
 	width:2em;
 	margin:1em auto;
  
+>>>>>>> 955412d42ba5efa0286174e55b80bfb2a2f1fbe9
 }
 
 p {
@@ -85,17 +123,31 @@ ul, ol {
 	margin: auto 125px 0px;
 }
 
+<<<<<<< HEAD
+nav{
+	margin: auto;
+=======
 a {
 	text-decoration: none;
 	color:#000;
 	border-bottom: 1px solid #000;
 	padding-bottom:2px	
+>>>>>>> 955412d42ba5efa0286174e55b80bfb2a2f1fbe9
 }
 
 img {
 	width: 100%;
 }
 
+<<<<<<< HEAD
+main {
+	
+}
+
+ul, ol {
+	padding: 0px;
+	text-align: none;
+=======
 .navlinks {
 	padding: 10px;
 	color: #001a00;
@@ -109,6 +161,27 @@ img {
 .intro{
  	width:30em;
  	margin:auto;
+>>>>>>> 955412d42ba5efa0286174e55b80bfb2a2f1fbe9
+}
+
+.showers {
+	width:30em;
+ 	margin:2em auto;
+
+<<<<<<< HEAD
+
+ul {
+	margin: 0;
+}
+
+
+.alignleft {
+	text-align: none;
+}
+
+.intro{
+ 	width:30em;
+ 	margin:auto;
 }
 
 .showers {
@@ -117,8 +190,36 @@ img {
 
 }
 
+#bigimage{
+    background: url(https://franspin.github.io/unit_3/images/shower001.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+    background-size: cover;
+    height: 750px;
+    padding: 20px 0;
+}
+
+
+/*#lander{
+	background:url(../assets/carina-nebula.jpg) no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height:750px;
+	padding:20px 0;
+}*/
+
+
+#test01 {
+	padding: none;
+=======
+}
+
 .extrapadding {
 	padding-bottom: 20px;
+>>>>>>> 955412d42ba5efa0286174e55b80bfb2a2f1fbe9
 }
 
 #bigimage{

@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+
+body {	
+	font-size: 20px;
+	position: relative;
+	width: 100%;	
+}
+
+nav{
+	margin: 1.5em 0em;
+	text-decoration: none;	
+  	display: inline-block;
+  	float: right;
+}
+
+section {
+    width: 100%;
+}
+
+footer {
+	background-color: #dfdfdf;
+	padding: 10px;
+	text-align: center;
+}
+
+h1,
+h2,
+h3
+	{
+	font-family: 'Muli', sans-serif;
+}
+
+footer p {
+	font-family: 'Muli', sans-serif;
+}
+
+h1{
+	font-weight: 400px;
+	font-size: 3em;
+	text-align:center;
+	line-height: 1.25em;
+	color: #2e2e2e;
+	margin: auto;
+}
+
+h2{
+	font-weight: 400px;
+	font-size:2em;
+	text-align:center;
+	line-height: .75em;
+	color: #2e2e2e;
+	margin:auto;
+	padding-top: .5em;
+}
+
+h3{
+	font-weight: 200px;
+	font-size:1.5em;
+	text-align:left;
+	color: #2e2e2e;
+	margin:auto;
+	padding-top:.5em;
+}
+
+h4{
+	font-weight: 800px;
+	font-size:1.5em;
+	text-align:center;
+	color: blue;
+	margin:auto;
+}
+
+hr {
+  	border:none;
+	height:3px;
+	background-color: #3C3C3C;
+	width:2em;
+	margin:1em 1em .5em 0em;
+}
+
+p {
+	font-family: 'EB Garamond', serif;
+	font-size:1em;
+	line-height: 1.5em;
+}
+
+ul, ol {
+	list-style: none;
+	text-align: left;
+	line-height: 1.50em;
+	margin: auto;
+}
+
+li {
+	font-family: 'EB Garamond', serif;
+	font-size:1em;
+	line-height: 1.5em;
+}
+
+a {
+	text-decoration: none;
+	color:#000;
+	padding-bottom: 2px	
+}
+
+img {
+	width: 100%;
+}
+
+img-shower {
+	width: 100%;
+}
+
+
+.logo {
+	font-family: 'Muli', sans-serif;
+	margin: 23px 0px 30px 0px;
+  	display: inline-block;
+  	float: none;
+  	font-weight: 800;
+  	text-transform: uppercase;
+  	border-bottom: 4px solid black;
+
+}
+
+.clearfix:after{
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+	content:" ";
+	display: block;
+	clear:both;
+}
+
+.wrapper{
+	width: 70%;
+    margin: auto;
+}
+
+.navlinks {
+	font-family: 'Muli', sans-serif;
+	padding: 5px;
+	color: #001a00;
+	text-transform: uppercase;
+	font-weight: 600px;
+	letter-spacing: 2px;
+	margin: 0 20px 0 0;
+    border:none;
+}
+
+.navlinks-mobile {
+	display: none;
+}
+
+.second-line-h1 {
+	font-size: 1em;
+	font-weight: 600px;
+	text-align:center;
+	text-transform: uppercase;
+	line-height: .25em;
+	color: #2e2e2e;
+	margin: 20px 0 75px 0px;
+	/*background-color: orange;*/
+}
+
+.showers {
+	width:28%;
+ 	margin:2.5%;
+ 	float: left;
+}
+
+.image-hidden {
+	display: none;
+}
+
+.extrapadding {
+	padding-bottom: 20px;
+	width: 66.75%;
+	margin: auto;
+}
+
+#bigimage{
+    background: url(https://franspin.github.io/unit_3/images/shower000.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    padding: 8%;
+}
+
+#cta-image{
+	font-family: 'Muli', sans-serif;
+	padding: 5px;
+	color: #001a00;
+	text-transform: uppercase;
+	font-weight: 800px;
+	letter-spacing: 2px;
+    border: 5px solid gray;
+    background-color: rgba(255, 255, 255, .25);
+    margin: 0 42% 0 42%;
+}
+
+@media only screen and (max-width:1500px) {
+	nav{
+		font-size: .95em;
+	}
+
+	h3{
+		font-size:1.25em;
+	}
+
+	p {
+		font-size:.95em;
+		line-height: 1.45em;
+	}
+
+	li {
+		font-size:.95em;
+		line-height: 1.45em;
+	}
+
+	.navlinks {
+		padding: 1px;
+		margin: 0 10px 0 0;   
+	}
+}
+
+@media only screen and (max-width:1368px) {
+	nav{
+		font-size: .93em;
+	}
+
+	.navlinks {
+		margin: 0 8px 0 0; 
+	}
+}
+
+@media only screen and (max-width:1285px) {
+	nav{
+		font-size: .85em;
+	}
+	
+	.navlinks {
+		margin: 0 8px 0 0;  
+	}
+
+	h1{	
+		font-size: 2.5em;
+		line-height: 1.25em;
+	}
+
+	h4{
+		font-size:1.25em;
+	}
+
+	.second-line-h1 {
+		margin: 9px 0 75px 0px;
+		padding-top: 10px;
+	}
+}
+
+@media only screen and (max-width:1252px) {
+	h3{
+		font-size:1em;
+	}
+}
+
+@media only screen and (max-width:1151px) {
+	h3{
+		font-size:1.1em;
+	}
+}
+
+@media only screen and (max-width:1103px) {
+	h1{	
+		font-size: 2.25em;
+		line-height: 1.2em;
+	}
+
+	h3{
+		font-size:1em;
+	}
+
+	.second-line-h1 {
+		margin: 9px 0 75px 0px;
+		padding-top: 10px;
+	}	
+}
+
+@media only screen and (max-width:1056px) {
+	nav{
+		font-size: .70em;
+		margin: 21px 0px 21px 0px;
+  		display: inline-block;
+	}
+
+	h1{	
+		font-size: 2em;
+		line-height: 1.2em;
+	}
+
+	h3{
+		font-size:1em;
+	}
+
+	p {
+		font-size:.9em;
+		line-height: 1.45em;
+	}
+
+	li {
+		font-size:.9em;
+		line-height: 1.45em;
+	}
+
+	.logo {
+		margin: 10px 0px 20px 0px;
+	  	display: block;
+	  	float: left;
+	}
+
+	.second-line-h1 {
+		margin: 9px 0 75px 0px;
+		padding-top: 10px;
+	}
+
+	.wrapper{
+		width: 90%;
+	    margin: auto;
+	}
+
+	.extrapadding {		
+		width: 90%;
+		margin:10px 0px 20px 75px;;
+	}
+
+	#cta-image{
+		margin: 0 35% 0 35%;
+		font-size: 1em;
+	}
+}
+
+@media only screen and (max-width:858px) {
+	h1{	
+		line-height: 1.50em;
+	}
+	.second-line-h1 {
+		padding-top: 2px;
+	}
+}
+
+@media only screen and (max-width: 786px) {	
+	nav{
+		margin: 1.5em 0em;	
+	  	display: inline-block;
+	  	float:left;
+		clear: left;
+	}
+
+	nav:hover a {
+		display: block;
+		float: none;
+		margin-left: 24px;
+
+	}
+
+	body {	
+		font-size: 19px;
+		position: relative;
+		width: 100%;	
+	}
+
+	h1 {
+		font-size: 1.5em;
+		line-height: 1em;
+		padding-bottom: .4em;
+	}
+
+	img {
+	    width: 33%;
+	    margin-right: .5em;
+	    display: none;
+	}
+
+	.logo {
+		margin: 10px 50px -6px 24px;
+	  	display: block;
+	  	float: left;
+	  	clear: left;
+	}
+
+	.navlinks-mobile {
+		display: inline-block;
+		width: auto;
+		padding: .25em 0;
+		margin-left: 24px;
+		float:left;
+		clear: left;
+	}
+	
+	.navlinks {
+		width: auto;
+		padding: .25em 0;
+		float:none;
+		display: none;
+	}
+
+	.second-line-h1 {
+		display: none;
+	}
+
+	.showers {
+		width:auto;
+ 		margin:4% 0% 3% 3%;
+ 		float: none;
+	}
+
+	.extrapadding {		
+		margin:10px 0px 20px 35px;;
+	}
+}
+
+
+
+
+
+
+
+
+
+
