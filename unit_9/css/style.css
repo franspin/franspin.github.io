@@ -45,7 +45,11 @@ h1{
 	font-weight: 400px;
 	font-size: 3em;
 	text-align:center;
+<<<<<<< HEAD
 	line-height: 1.75em;
+=======
+	line-height: 1.25em;
+>>>>>>> 8680a326bc2800e16316142fc68ab99f811a48cc
 	color: #2e2e2e;
 	margin: auto;
 }
@@ -254,6 +258,10 @@ img-shower {
 
 	h1{	
 		font-size: 2.5em;
+<<<<<<< HEAD
+=======
+		line-height: 1.25em;
+>>>>>>> 8680a326bc2800e16316142fc68ab99f811a48cc
 	}
 
 	h4{
@@ -303,7 +311,11 @@ img-shower {
 
 	h1{	
 		font-size: 2em;
+<<<<<<< HEAD
 		line-height: 1.5em;
+=======
+		line-height: 1.2em;
+>>>>>>> 8680a326bc2800e16316142fc68ab99f811a48cc
 	}
 
 	h3{
@@ -379,7 +391,11 @@ img-shower {
 
 	h1 {
 		font-size: 1.75em;
+<<<<<<< HEAD
 		line-height: 3em;
+=======
+		line-height: 2em;
+>>>>>>> 8680a326bc2800e16316142fc68ab99f811a48cc
 		padding-bottom: .4em;
 	}
 
@@ -429,8 +445,13 @@ img-shower {
 
 @media only screen and (max-width: 533px) {
 	h1 {
+<<<<<<< HEAD
 		font-size: 1.64em;
 		line-height: 4.25em;
+=======
+		font-size: 1.25em;
+		line-height: 2.25em;
+>>>>>>> 8680a326bc2800e16316142fc68ab99f811a48cc
 	}
 
 	#cta-image{
@@ -442,8 +463,14 @@ img-shower {
 
 @media only screen and (max-width: 375px) {
 	h1 {
+<<<<<<< HEAD
 		font-size: 1.18em;
 		line-height: 5.5em;
+=======
+		font-size: 1.1em;
+		text-transform: uppercase;
+		line-height: 2em;
+>>>>>>> 8680a326bc2800e16316142fc68ab99f811a48cc
 	}
 
 }
